@@ -16,6 +16,14 @@ body {
   border-top: 4px solid #CCC;
 }
 
+.shorts-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 3rem 1rem;
+  padding: 3rem 0;
+  margin: 0 1.5rem;
+}
+
 .videos-section:first-child {
   border-top: none;
 }
@@ -47,6 +55,14 @@ body {
   height: 100%;
   min-width: 250px;
   min-height: 150px;
+  background-color: #AAA;
+}
+
+.short-thumbnail-image {
+  width: 100%;
+  height: 100%;
+  min-width: 150px;
+  min-height: 250px;
   background-color: #AAA;
 }
 
