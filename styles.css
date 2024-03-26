@@ -21,10 +21,26 @@ body {
   word-wrap: none;
   white-space: nowrap;
   border-radius: 8px;
-  background-color: #E7E7E7;
-  border: 1px solid #E7E7E7;
-  padding: 0.5rem 1rem;
-  font-weight: bolder;
+  background-color: #eeeeee;
+  border: 0;
+  padding: 0.4rem 0.8rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 150ms;
+}
+
+.category:hover {
+  background-color: #e6e6e6;
+}
+
+.category.active {
+  background-color: black;
+  color: white;
+}
+
+.category:last-child {
+  margin-right: 0;
 }
 
 .videos-section {
