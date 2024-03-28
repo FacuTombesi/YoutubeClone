@@ -85,6 +85,7 @@ body {
 
 .videos-section:first-child {
   border-top: none;
+  padding: 2rem 0;
 }
 
 .videos-container {
@@ -177,4 +178,71 @@ body {
 
 .video-channel-name, .video-metadata {
   color: #555;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem 1rem 1rem;
+}
+
+.logo-menu {
+  display: flex;
+  align-items: center;
+  width: 20%;
+  margin-left: 1rem;
+}
+
+.youtube-logo {
+  height: 20px;
+  margin-left: 1.5rem;
+}
+
+.search-bar {
+  display: flex;
+  flex-grow: 1;
+  margin: 0 2rem 0 4rem;
+}
+
+.search-input {
+  width: 50%;
+  font-size: inherit;
+  padding: 0.4rem 1rem;
+  border: 1px solid #D4D4D4;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 0;
+}
+
+.search-btn {
+  display: flex;
+  align-items: center;
+  padding: 0 1.25rem;
+  border: 1px solid #D4D4D4;
+  background-color: #F8F8F8;
+  border-left: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 20px;
+  cursor: pointer;
+}
+
+.search-btn:hover {
+  background-color: #F0F0F0;
+}
+
+.profile-menu {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.profile-icon {
+  border-radius: 50%;
+  height: 36px;
+  width: 36px;
 }
